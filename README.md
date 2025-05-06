@@ -1,56 +1,93 @@
-# Property-Price-Analysis Tool 🏠
-Interactive nature, Property price focus, Analytics and prediction capabilities, Real estate domain, Decision-making utility
+# Property Price Analysis & Prediction Tool
 
-A robust Streamlit web application for analyzing and predicting property prices based on location and various property characteristics. This tool helps real estate professionals, investors, and home buyers make data-driven decisions by providing comprehensive analytics and price predictions.
+![Real Estate](https://img.shields.io/badge/ML-Real%20Estate-brightgreen)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.15+-red)
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange)
 
-## Features
+## 📊 Overview
 
+Interactive property price analytics and prediction tool for real estate decisions. This Streamlit application analyzes property data based on location and various characteristics, helping real estate professionals, investors, and home buyers make data-driven decisions through comprehensive analytics and price predictions.
+
+## ✨ Features
+
+- **Data Analysis**: Upload and analyze your property dataset with comprehensive visualization
 - **Location-Based Analysis**: Filter and analyze properties by state, location, and more
+- **Interactive Visualizations**: 
+  - Price distribution plots
+  - Price vs Area scatter plots
+  - Year-wise price trend analysis
+  - Enterprise comparison charts
 - **Price Prediction**: Machine learning model to estimate property prices based on various features
-- **Interactive Visualizations**: Dynamic charts and graphs for market insights
-- **Year-wise Trend Analysis**: Track property price trends over time
-- **Enterprise Comparison**: Compare property prices across different enterprises/builders
 - **User-Friendly Filters**: Easily segment data by bedrooms, furnishing status, price range, etc.
 - **Detailed Property Listings**: View and sort complete property details
+- **Year-wise Predictions**: Forecast property prices for future years
 
-## 📊 Screenshots
+## 🚀 Getting Started
 
-*[Insert screenshots of your application here]*
+### Prerequisites
 
-## 🛠️ Tech Stack
+- Python 3.8+
+- Required libraries: streamlit, pandas, numpy, plotly, scikit-learn
 
-- **Streamlit**: For the interactive web interface
-- **Pandas**: For data manipulation and analysis
-- **NumPy**: For numerical computations
-- **Plotly Express**: For interactive data visualizations
-- **Scikit-learn**: For machine learning models (Linear Regression)
-- **StandardScaler**: For feature scaling
-
-## 🔧 Installation & Setup
+### Installation
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/property-price-analysis.git
-   cd property-price-analysis
-   ```
+```bash
+git clone https://github.com/yourusername/property-price-analysis.git
+cd property-price-analysis
+```
 
 2. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 4. Run the Streamlit app:
-   ```bash
-   streamlit run main.py
-   ```
+```bash
+streamlit run app.py
+```
 
-## 📁 Required Data Format
+5. Open your browser and go to `http://localhost:8501`
+
+## 📝 Usage Guide
+
+### Data Analysis & Visualization
+
+1. Upload your property data CSV file through the file uploader
+2. Use the sidebar filters to segment data by:
+   - Location (State and specific locality)
+   - Price range
+   - Bedrooms configuration (1 RK, 1 BHK, 2 BHK, etc.)
+   - Furnishing status
+   - Enterprise/Builder
+3. Explore the interactive charts and property listings including:
+   - Market overview with key metrics
+   - Year-wise price analysis
+   - Price distribution
+   - Price vs Area relationship
+
+### Price Prediction
+
+1. Click "Train Price Prediction Model" to build the machine learning model
+2. Enter property details:
+   - Area (sqft)
+   - Bedrooms configuration
+   - Bathrooms
+   - Floor and total floors
+   - Age and parking
+   - Metro distance
+   - Furnishing status and facing direction
+   - Location
+3. Click "Estimate Price" to get the predicted property price
+
+## 📊 Required Data Format
 
 Your CSV file should include these columns (not all are mandatory):
 
@@ -77,19 +114,33 @@ Example row:
 Whitefield,Karnataka,85.5,1200,2,2,3,5,2,1,1.5,Unfurnished,North,BuilderA,7125
 ```
 
-## 🚀 Usage
+## 🔍 How It Works
 
-1. Upload your property data CSV file through the file uploader
-2. Use the sidebar filters to segment data by location, price range, bedrooms, etc.
-3. Explore the interactive charts and property listings
-4. Train the price prediction model and get estimates for specific property configurations
+1. **Data Processing**: 
+   - The app loads and processes property data
+   - Handles data type conversions (e.g., converting bedroom values to RK/BHK format)
+   - Calculates additional metrics like price per square foot
 
-## 🧠 Machine Learning Model
+2. **Location Analysis**: 
+   - Calculates location-based statistics
+   - Groups properties by location and state for comparison
+
+3. **Machine Learning**: 
+   - Uses Linear Regression to predict property prices
+   - Features are standardized for better model performance
+   - Handles both numeric and categorical features with one-hot encoding
+
+4. **Visualization**: 
+   - Creates interactive visualizations using Plotly
+   - Offers year-wise trend analysis
+   - Provides price distribution and correlation plots
+
+## 🛠️ Machine Learning Model
 
 The application uses a Linear Regression model to predict property prices based on:
-- Numeric features (area, bedrooms, bathrooms, floor, etc.)
-- Categorical features (location, state, furnishing status, etc.) using one-hot encoding
-- Standardized scaling for better model performance
+- Numeric features: area, bedrooms, bathrooms, floor, etc.
+- Categorical features: location, state, furnishing status, etc.
+- All features are standardized using StandardScaler for better performance
 
 ## 🔮 Future Enhancements
 
@@ -101,10 +152,10 @@ The application uses a Linear Regression model to predict property prices based 
 
 ## 📞 Contact
 
-Your Name -([https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-shikhare)](https://www.linkedin.com/in/om-shikhare?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+Your Name - [your-email@example.com](mailto:your-email@example.com)
 
-Project Link:()
+Project Link: [https://github.com/yourusername/property-price-analysis](https://github.com/yourusername/property-price-analysis)
 
 ---
 
-⭐ Star this repo if you find it useful!
+⭐️ If you found this project helpful, please give it a star on GitHub! ⭐️
