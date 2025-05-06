@@ -152,10 +152,8 @@ The application uses a Linear Regression model to predict property prices based 
 
 ## 📞 Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Your Name -https://www.linkedin.com/in/om-shikhare?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
-Project Link: [https://github.com/yourusername/property-price-analysis](https://github.com/yourusername/property-price-analysis)
+Project Link:
 
 ---
-
-⭐️ If you found this project helpful, please give it a star on GitHub! ⭐️
