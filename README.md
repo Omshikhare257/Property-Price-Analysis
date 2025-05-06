@@ -47,7 +47,7 @@ A robust Streamlit web application for analyzing and predicting property prices 
 
 4. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 ## 📁 Required Data Format
@@ -99,9 +99,11 @@ The application uses a Linear Regression model to predict property prices based 
 - Export functionality for reports and predictions
 - Interactive map visualization for location-based analysis
 
-## 👨‍💻 Author
+## 📞 Contact
 
-Your Name - [Your Email](mailto:your.email@example.com)
+Your Name - [[your-email@example.com](mailto:your-email@example.co)](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-shikhare)
+
+Project Link:()
 
 ---
 
