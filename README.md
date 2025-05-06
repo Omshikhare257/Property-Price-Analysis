@@ -101,7 +101,7 @@ The application uses a Linear Regression model to predict property prices based 
 
 ## 📞 Contact
 
-Your Name - [[your-email@example.com](mailto:your-email@example.co)](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-shikhare)
+Your Name -(https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-shikhare)
 
 Project Link:()
 
