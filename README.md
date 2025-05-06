@@ -154,6 +154,6 @@ The application uses a Linear Regression model to predict property prices based 
 
 Your Name -https://www.linkedin.com/in/om-shikhare?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
-Project Link:
+Project Link: https://property-price-analysis-zzbdexrtu3pclk3ku42zxx.streamlit.app/
 
 ---
