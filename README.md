@@ -150,9 +150,9 @@ The application uses a Linear Regression model to predict property prices based 
 - Export functionality for reports and predictions
 - Interactive map visualization for location-based analysis
 
-## 📞 Contact
-
-Your Name -https://www.linkedin.com/in/om-shikhare?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+### 📫 Let's Connect!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-shikhare)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ompythoncode@gmail.com,omjobshikhare@gmail.com)
 
 Project Link: https://property-price-analysis-zzbdexrtu3pclk3ku42zxx.streamlit.app/
 
